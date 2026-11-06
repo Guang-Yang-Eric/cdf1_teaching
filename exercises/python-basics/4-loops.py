@@ -8,7 +8,11 @@
 
 break_condition = 0
 
-...
+while break_condition < 10:   
+    break_condition += 1
+    print(break_condition)
+else:
+    print("Loop finished")
 
 print("out of while loop")
 
@@ -22,4 +26,13 @@ print("out of while loop")
 
 pets = ["dog", "cat", "horse", "rabbit", "snake"]
 
-print(pet)
+for pet in pets:
+    print(pet)
+
+my_list = [30,70]
+
+for i in my_list:
+    print(i-20)
+
+for i in range(5):
+    print(i)

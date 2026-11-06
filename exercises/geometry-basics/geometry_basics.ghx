@@ -49,10 +49,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>1112</X>
-                  <Y>379</Y>
+                  <X>352</X>
+                  <Y>-314</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">0.91351116</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.85</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -75,15 +75,15 @@
         </chunk>
         <chunk name="GHALibraries">
           <items count="1">
-            <item name="Count" type_name="gh_int32" type_code="3">2</item>
+            <item name="Count" type_name="gh_int32" type_code="3">3</item>
           </items>
-          <chunks count="2">
+          <chunks count="3">
             <chunk name="Library" index="0">
               <items count="4">
                 <item name="Author" type_name="gh_string" type_code="10">Robert McNeel &amp; Associates</item>
                 <item name="Id" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
                 <item name="Name" type_name="gh_string" type_code="10">Grasshopper</item>
-                <item name="Version" type_name="gh_string" type_code="10">8.33.26188.13001</item>
+                <item name="Version" type_name="gh_string" type_code="10">8.36.26293.11001</item>
               </items>
             </chunk>
             <chunk name="Library" index="1">
@@ -91,16 +91,24 @@
                 <item name="Author" type_name="gh_string" type_code="10">Robert McNeel &amp; Associates</item>
                 <item name="Id" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
                 <item name="Name" type_name="gh_string" type_code="10">Grasshopper</item>
-                <item name="Version" type_name="gh_string" type_code="10">8.33.26188.13001</item>
+                <item name="Version" type_name="gh_string" type_code="10">8.36.26293.11001</item>
+              </items>
+            </chunk>
+            <chunk name="Library" index="2">
+              <items count="4">
+                <item name="Author" type_name="gh_string" type_code="10">Robert McNeel &amp; Associates</item>
+                <item name="Id" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+                <item name="Name" type_name="gh_string" type_code="10">Grasshopper</item>
+                <item name="Version" type_name="gh_string" type_code="10">8.36.26293.11001</item>
               </items>
             </chunk>
           </chunks>
         </chunk>
         <chunk name="DefinitionObjects">
           <items count="1">
-            <item name="ObjectCount" type_name="gh_int32" type_code="3">31</item>
+            <item name="ObjectCount" type_name="gh_int32" type_code="3">36</item>
           </items>
-          <chunks count="31">
+          <chunks count="36">
             <chunk name="Object" index="0">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
@@ -129,9 +137,9 @@
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>264</X>
+                          <X>263</X>
                           <Y>313</Y>
-                          <W>104</W>
+                          <W>109</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -171,13 +179,13 @@
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>266</X>
+                                  <X>265</X>
                                   <Y>315</Y>
-                                  <W>17</W>
+                                  <W>18</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>276</X>
+                                  <X>275.5</X>
                                   <Y>325</Y>
                                 </item>
                               </items>
@@ -210,13 +218,13 @@
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>266</X>
+                                  <X>265</X>
                                   <Y>335</Y>
-                                  <W>17</W>
+                                  <W>18</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>276</X>
+                                  <X>275.5</X>
                                   <Y>345</Y>
                                 </item>
                               </items>
@@ -249,13 +257,13 @@
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>266</X>
+                                  <X>265</X>
                                   <Y>355</Y>
-                                  <W>17</W>
+                                  <W>18</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>276</X>
+                                  <X>275.5</X>
                                   <Y>365</Y>
                                 </item>
                               </items>
@@ -283,11 +291,11 @@
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>313</X>
                                   <Y>315</Y>
-                                  <W>53</W>
+                                  <W>57</W>
                                   <H>30</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>339.5</X>
+                                  <X>341.5</X>
                                   <Y>330</Y>
                                 </item>
                               </items>
@@ -315,11 +323,11 @@
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>313</X>
                                   <Y>345</Y>
-                                  <W>53</W>
+                                  <W>57</W>
                                   <H>30</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>339.5</X>
+                                  <X>341.5</X>
                                   <Y>360</Y>
                                 </item>
                               </items>
@@ -354,10 +362,10 @@
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>722</X>
-                          <Y>10</Y>
+                          <X>213</X>
+                          <Y>323</Y>
                           <W>688</W>
-                          <H>869</H>
+                          <H>969</H>
                         </item>
                       </items>
                     </chunk>
@@ -445,7 +453,7 @@
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>36</X>
                           <Y>345</Y>
-                          <W>160</W>
+                          <W>163</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -490,7 +498,7 @@
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>36</X>
                           <Y>375</Y>
-                          <W>160</W>
+                          <W>163</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -629,7 +637,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>417</X>
                           <Y>369</Y>
-                          <W>88</W>
+                          <W>92</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -661,10 +669,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>539</X>
-                          <Y>331</Y>
-                          <W>48</W>
-                          <H>65</H>
+                          <X>538</X>
+                          <Y>330</Y>
+                          <W>49</W>
+                          <H>68</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>573</X>
@@ -688,14 +696,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>541</X>
-                              <Y>333</Y>
-                              <W>17</W>
-                              <H>30</H>
+                              <X>540</X>
+                              <Y>332</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>551</X>
-                              <Y>348.25</Y>
+                              <X>550.5</X>
+                              <Y>348</Y>
                             </item>
                           </items>
                         </chunk>
@@ -715,14 +723,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>541</X>
-                              <Y>363</Y>
-                              <W>17</W>
-                              <H>31</H>
+                              <X>540</X>
+                              <Y>364</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>551</X>
-                              <Y>378.75</Y>
+                              <X>550.5</X>
+                              <Y>380</Y>
                             </item>
                           </items>
                         </chunk>
@@ -839,7 +847,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>419</X>
                           <Y>497</Y>
-                          <W>88</W>
+                          <W>92</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -871,10 +879,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>541</X>
-                          <Y>459</Y>
-                          <W>48</W>
-                          <H>65</H>
+                          <X>540</X>
+                          <Y>458</Y>
+                          <W>49</W>
+                          <H>68</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>575</X>
@@ -898,14 +906,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>543</X>
-                              <Y>461</Y>
-                              <W>17</W>
-                              <H>30</H>
+                              <X>542</X>
+                              <Y>460</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>553</X>
-                              <Y>476.25</Y>
+                              <X>552.5</X>
+                              <Y>476</Y>
                             </item>
                           </items>
                         </chunk>
@@ -925,14 +933,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>543</X>
-                              <Y>491</Y>
-                              <W>17</W>
-                              <H>31</H>
+                              <X>542</X>
+                              <Y>492</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>553</X>
-                              <Y>506.75</Y>
+                              <X>552.5</X>
+                              <Y>508</Y>
                             </item>
                           </items>
                         </chunk>
@@ -1026,10 +1034,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>124</X>
-                          <Y>617</Y>
-                          <W>181</W>
-                          <H>66</H>
+                          <X>119</X>
+                          <Y>615</Y>
+                          <W>193</W>
+                          <H>70</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>200</X>
@@ -1068,14 +1076,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>126</X>
-                                  <Y>619</Y>
-                                  <W>59</W>
-                                  <H>31</H>
+                                  <X>121</X>
+                                  <Y>617</Y>
+                                  <W>64</W>
+                                  <H>33</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>157</X>
-                                  <Y>634.5</Y>
+                                  <X>154.5</X>
+                                  <Y>633.5</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1108,14 +1116,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>126</X>
+                                  <X>121</X>
                                   <Y>650</Y>
-                                  <W>59</W>
-                                  <H>31</H>
+                                  <W>64</W>
+                                  <H>33</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>157</X>
-                                  <Y>665.5</Y>
+                                  <X>154.5</X>
+                                  <Y>666.5</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1141,13 +1149,13 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>215</X>
-                                  <Y>619</Y>
-                                  <W>88</W>
-                                  <H>31</H>
+                                  <Y>617</Y>
+                                  <W>95</W>
+                                  <H>33</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>259</X>
-                                  <Y>634.5</Y>
+                                  <X>262.5</X>
+                                  <Y>633.5</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1174,12 +1182,12 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>215</X>
                                   <Y>650</Y>
-                                  <W>88</W>
-                                  <H>31</H>
+                                  <W>95</W>
+                                  <H>33</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>259</X>
-                                  <Y>665.5</Y>
+                                  <X>262.5</X>
+                                  <Y>666.5</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1194,10 +1202,11 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                       </chunks>
                     </chunk>
                     <chunk name="Script">
-                      <items count="4">
+                      <items count="5">
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
+                        <item name="Text" type_name="gh_string" type_code="10">ZnJvbSBjZGYgaW1wb3J0IGJvb2xlYW5fZGlmZmVyZW5jZQ0KDQpyZXN1bHRfZ2VvbWV0cnkgPSBib29sZWFuX2RpZmZlcmVuY2UobXlfY29uZSwgbXlfc3BoZXJlKQ==</item>
                         <item name="Title" type_name="gh_string" type_code="10">boolean</item>
                       </items>
                       <chunks count="1">
@@ -1212,10 +1221,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>247</X>
-                          <Y>191</Y>
-                          <W>550</W>
-                          <H>596</H>
+                          <X>-38</X>
+                          <Y>445</Y>
+                          <W>669</W>
+                          <H>646</H>
                         </item>
                       </items>
                     </chunk>
@@ -1272,7 +1281,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>420</X>
                           <Y>639</Y>
-                          <W>88</W>
+                          <W>92</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -1292,8 +1301,9 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="6">
+                  <items count="7">
                     <item name="Description" type_name="gh_string" type_code="10">Allows for customized geometry previews</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IncludeInRender" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">2ce5643e-ac66-4e1e-a7fe-1c407fa348e0</item>
                     <item name="Name" type_name="gh_string" type_code="10">Custom Preview</item>
@@ -1304,10 +1314,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>541</X>
-                          <Y>601</Y>
-                          <W>48</W>
-                          <H>65</H>
+                          <X>540</X>
+                          <Y>600</Y>
+                          <W>49</W>
+                          <H>68</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>575</X>
@@ -1331,14 +1341,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>543</X>
-                              <Y>603</Y>
-                              <W>17</W>
-                              <H>30</H>
+                              <X>542</X>
+                              <Y>602</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>553</X>
-                              <Y>618.25</Y>
+                              <X>552.5</X>
+                              <Y>618</Y>
                             </item>
                           </items>
                         </chunk>
@@ -1358,14 +1368,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>543</X>
-                              <Y>633</Y>
-                              <W>17</W>
-                              <H>31</H>
+                              <X>542</X>
+                              <Y>634</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>553</X>
-                              <Y>648.75</Y>
+                              <X>552.5</X>
+                              <Y>650</Y>
                             </item>
                           </items>
                         </chunk>
@@ -1459,10 +1469,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>224</X>
-                          <Y>764</Y>
-                          <W>160</W>
-                          <H>112</H>
+                          <X>219</X>
+                          <Y>760</Y>
+                          <W>170</W>
+                          <H>119</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>300</X>
@@ -1501,14 +1511,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>226</X>
-                                  <Y>766</Y>
-                                  <W>59</W>
-                                  <H>36</H>
+                                  <X>221</X>
+                                  <Y>762</Y>
+                                  <W>64</W>
+                                  <H>38</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>257</X>
-                                  <Y>784</Y>
+                                  <X>254.5</X>
+                                  <Y>781.1667</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1540,14 +1550,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>226</X>
-                                  <Y>802</Y>
-                                  <W>59</W>
-                                  <H>36</H>
+                                  <X>221</X>
+                                  <Y>800</Y>
+                                  <W>64</W>
+                                  <H>38</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>257</X>
-                                  <Y>820</Y>
+                                  <X>254.5</X>
+                                  <Y>819.5</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1579,14 +1589,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>226</X>
+                                  <X>221</X>
                                   <Y>838</Y>
-                                  <W>59</W>
-                                  <H>36</H>
+                                  <W>64</W>
+                                  <H>39</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>257</X>
-                                  <Y>856</Y>
+                                  <X>254.5</X>
+                                  <Y>857.8334</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1612,13 +1622,13 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>315</X>
-                                  <Y>766</Y>
-                                  <W>67</W>
-                                  <H>54</H>
+                                  <Y>762</Y>
+                                  <W>72</W>
+                                  <H>57</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>348.5</X>
-                                  <Y>793</Y>
+                                  <X>351</X>
+                                  <Y>790.75</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1644,13 +1654,13 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>315</X>
-                                  <Y>820</Y>
-                                  <W>67</W>
-                                  <H>54</H>
+                                  <Y>819</Y>
+                                  <W>72</W>
+                                  <H>58</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>348.5</X>
-                                  <Y>847</Y>
+                                  <X>351</X>
+                                  <Y>848.25</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1684,10 +1694,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>754</X>
-                          <Y>647</Y>
+                          <X>214</X>
+                          <Y>593</Y>
                           <W>550</W>
-                          <H>649</H>
+                          <H>699</H>
                         </item>
                       </items>
                     </chunk>
@@ -1716,7 +1726,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>21</X>
                           <Y>846</Y>
-                          <W>161</W>
+                          <W>163</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -1733,7 +1743,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Max" type_name="gh_double" type_code="6">10</item>
                         <item name="Min" type_name="gh_double" type_code="6">1</item>
                         <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">2</item>
+                        <item name="Value" type_name="gh_double" type_code="6">10</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -1761,7 +1771,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>19</X>
                           <Y>810</Y>
-                          <W>173</W>
+                          <W>177</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -1778,7 +1788,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Max" type_name="gh_double" type_code="6">10</item>
                         <item name="Min" type_name="gh_double" type_code="6">1</item>
                         <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Value" type_name="gh_double" type_code="6">3</item>
+                        <item name="Value" type_name="gh_double" type_code="6">1</item>
                       </items>
                     </chunk>
                   </chunks>
@@ -1809,7 +1819,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>433</X>
                           <Y>834</Y>
-                          <W>88</W>
+                          <W>92</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -1841,10 +1851,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>553</X>
-                          <Y>795</Y>
-                          <W>48</W>
-                          <H>65</H>
+                          <X>552</X>
+                          <Y>794</Y>
+                          <W>49</W>
+                          <H>68</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>587</X>
@@ -1868,14 +1878,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>555</X>
-                              <Y>797</Y>
-                              <W>17</W>
-                              <H>30</H>
+                              <X>554</X>
+                              <Y>796</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>565</X>
-                              <Y>812.25</Y>
+                              <X>564.5</X>
+                              <Y>812</Y>
                             </item>
                           </items>
                         </chunk>
@@ -1895,14 +1905,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>555</X>
-                              <Y>827</Y>
-                              <W>17</W>
-                              <H>31</H>
+                              <X>554</X>
+                              <Y>828</Y>
+                              <W>18</W>
+                              <H>32</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>565</X>
-                              <Y>842.75</Y>
+                              <X>564.5</X>
+                              <Y>844</Y>
                             </item>
                           </items>
                         </chunk>
@@ -2003,7 +2013,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
               <chunks count="1">
                 <chunk name="Container">
                   <items count="14">
-                    <item name="Description" type_name="gh_string" type_code="10">Python 3 scripting component</item>
+                    <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="GraftStandardOutputLines" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">441fa213-d0f1-4574-ac73-626a15168253</item>
                     <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
@@ -2022,10 +2032,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>131</X>
-                          <Y>-148</Y>
-                          <W>107</W>
-                          <H>103</H>
+                          <X>127</X>
+                          <Y>-151</Y>
+                          <W>113</W>
+                          <H>109</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>195</X>
@@ -2061,13 +2071,13 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>133</X>
-                                  <Y>-146</Y>
-                                  <W>47</W>
-                                  <H>99</H>
+                                  <X>129</X>
+                                  <Y>-149</Y>
+                                  <W>51</W>
+                                  <H>105</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>158</X>
+                                  <X>156</X>
                                   <Y>-96.5</Y>
                                 </item>
                               </items>
@@ -2094,12 +2104,12 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>210</X>
-                                  <Y>-146</Y>
-                                  <W>26</W>
-                                  <H>99</H>
+                                  <Y>-149</Y>
+                                  <W>28</W>
+                                  <H>105</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>223</X>
+                                  <X>224</X>
                                   <Y>-96.5</Y>
                                 </item>
                               </items>
@@ -2128,10 +2138,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>574</X>
-                          <Y>140</Y>
+                          <X>705</X>
+                          <Y>287</Y>
                           <W>549</W>
-                          <H>650</H>
+                          <H>700</H>
                         </item>
                       </items>
                     </chunk>
@@ -2156,7 +2166,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
                   </items>
-                  <chunks count="1">
+                  <chunks count="2">
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
@@ -2170,6 +2180,27 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                           <Y>-96.67122</Y>
                         </item>
                       </items>
+                    </chunk>
+                    <chunk name="PersistentData">
+                      <items count="1">
+                        <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                      </items>
+                      <chunks count="1">
+                        <chunk name="Branch" index="0">
+                          <items count="2">
+                            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                            <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                          </items>
+                          <chunks count="1">
+                            <chunk name="Item" index="0">
+                              <items count="2">
+                                <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                                <item name="string" type_name="gh_string" type_code="10">C:\D\TUM\s3\Computational Design and Fabrication I\workspace\cdf1_teaching\src\</item>
+                              </items>
+                            </chunk>
+                          </chunks>
+                        </chunk>
+                      </chunks>
                     </chunk>
                   </chunks>
                 </chunk>
@@ -2262,9 +2293,10 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="14">
-                    <item name="Description" type_name="gh_string" type_code="10">Python 3 scripting component</item>
+                  <items count="15">
+                    <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="GraftStandardOutputLines" type_name="gh_bool" type_code="1">true</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">2e2a3e48-5901-4dbe-a315-227cc39a85fe</item>
                     <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                     <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
@@ -2278,14 +2310,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                     <item name="UsingScriptOutputParam" type_name="gh_bool" type_code="1">false</item>
                     <item name="UsingStandardOutputParam" type_name="gh_bool" type_code="1">true</item>
                   </items>
-                  <chunks count="3">
+                  <chunks count="4">
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>162</X>
-                          <Y>457</Y>
-                          <W>72</W>
-                          <H>57</H>
+                          <X>161</X>
+                          <Y>455</Y>
+                          <W>114</W>
+                          <H>61</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>191</X>
@@ -2304,7 +2336,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                       </items>
                       <chunks count="4">
                         <chunk name="InputParam" index="0">
-                          <items count="12">
+                          <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">rhinoscriptsyntax geometry</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">51cb94ea-f32a-4b15-8cff-ae6d6ed7a26a</item>
@@ -2314,7 +2346,8 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">53544c42-ea9c-4e9d-ac0e-99b053cc7c95</item>
+                            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="ToolTip" type_name="gh_string" type_code="10"></item>
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
                           </items>
@@ -2322,14 +2355,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>164</X>
-                                  <Y>459</Y>
-                                  <W>12</W>
-                                  <H>26</H>
+                                  <X>163</X>
+                                  <Y>457</Y>
+                                  <W>13</W>
+                                  <H>28</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>171.5</X>
-                                  <Y>472.25</Y>
+                                  <X>171</X>
+                                  <Y>471.25</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2342,7 +2375,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                           </chunks>
                         </chunk>
                         <chunk name="InputParam" index="1">
-                          <items count="12">
+                          <items count="13">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">rhinoscriptsyntax geometry</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">83e1b827-e65e-4ec4-9ec1-4bf8113f9acb</item>
@@ -2352,7 +2385,8 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">c2be0930-9ba9-41e9-a914-8e708c16a8bf</item>
+                            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="ToolTip" type_name="gh_string" type_code="10"></item>
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
                           </items>
@@ -2360,14 +2394,14 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>164</X>
+                                  <X>163</X>
                                   <Y>485</Y>
-                                  <W>12</W>
-                                  <H>27</H>
+                                  <W>13</W>
+                                  <H>29</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>171.5</X>
-                                  <Y>498.75</Y>
+                                  <X>171</X>
+                                  <Y>499.75</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2393,13 +2427,13 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>206</X>
-                                  <Y>459</Y>
-                                  <W>26</W>
-                                  <H>26</H>
+                                  <Y>457</Y>
+                                  <W>67</W>
+                                  <H>28</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>219</X>
-                                  <Y>472.25</Y>
+                                  <X>239.5</X>
+                                  <Y>471.25</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2410,8 +2444,8 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">false</item>
                             <item name="Description" type_name="gh_string" type_code="10">rhinoscriptsyntax geometry</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">db467d9f-4dea-4e45-bfea-2748a537cef3</item>
-                            <item name="Name" type_name="gh_string" type_code="10">a</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">a</item>
+                            <item name="Name" type_name="gh_string" type_code="10">my_sphere</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">my_sphere</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -2426,12 +2460,12 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>206</X>
                                   <Y>485</Y>
-                                  <W>26</W>
-                                  <H>27</H>
+                                  <W>67</W>
+                                  <H>29</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>219</X>
-                                  <Y>498.75</Y>
+                                  <X>239.5</X>
+                                  <Y>499.75</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2450,7 +2484,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">IiIiR3Jhc3Nob3BwZXIgU2NyaXB0IiIiDQphID0gIkhlbGxvIFB5dGhvbiAzIGluIEdyYXNzaG9wcGVyISINCnByaW50KGEpDQo=</item>
+                        <item name="Text" type_name="gh_string" type_code="10">IiIiR3Jhc3Nob3BwZXIgU2NyaXB0IiIiDQphID0gIkhlbGxvIFB5dGhvbiAzIGluIEdyYXNzaG9wcGVyISINCnByaW50KGEpDQoNCmZyb20gY2RmIGltcG9ydCBjcmVhdGVfc3BoZXJlDQoNCm15X3NwaGVyZSA9IGNyZWF0ZV9zcGhlcmUoY2VudGVyX3BvaW50PXgsIHJhZGl1cz15KQ==</item>
                         <item name="Title" type_name="gh_string" type_code="10">sphere</item>
                       </items>
                       <chunks count="1">
@@ -2461,6 +2495,16 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                           </items>
                         </chunk>
                       </chunks>
+                    </chunk>
+                    <chunk name="ScriptEditor">
+                      <items count="1">
+                        <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
+                          <X>153</X>
+                          <Y>471</Y>
+                          <W>760</W>
+                          <H>650</H>
+                        </item>
+                      </items>
                     </chunk>
                   </chunks>
                 </chunk>
@@ -2520,6 +2564,356 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
                 </chunk>
               </chunks>
             </chunk>
+            <chunk name="Object" index="31">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">3581f42a-9592-4549-bd6b-1c0fc39d067b</item>
+                <item name="Name" type_name="gh_string" type_code="10">Construct Point</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="4">
+                    <item name="Description" type_name="gh_string" type_code="10">Construct a point from {xyz} coordinates.</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">adecf65d-8280-498b-aab1-836a8a15d8ed</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Construct Point</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Pt</item>
+                  </items>
+                  <chunks count="5">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>46</X>
+                          <Y>437</Y>
+                          <W>69</W>
+                          <H>64</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>77</X>
+                          <Y>469</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                    <chunk name="param_input" index="0">
+                      <items count="7">
+                        <item name="Description" type_name="gh_string" type_code="10">{x} coordinate</item>
+                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">d0a85f46-4ebb-4b1d-ba1f-f4f201db44ab</item>
+                        <item name="Name" type_name="gh_string" type_code="10">X coordinate</item>
+                        <item name="NickName" type_name="gh_string" type_code="10">X</item>
+                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                        <item name="Source" index="0" type_name="gh_guid" type_code="9">53d6c242-4019-43e3-b315-117c88e17b2f</item>
+                        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+                      </items>
+                      <chunks count="2">
+                        <chunk name="Attributes">
+                          <items count="2">
+                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                              <X>48</X>
+                              <Y>439</Y>
+                              <W>14</W>
+                              <H>20</H>
+                            </item>
+                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                              <X>56.5</X>
+                              <Y>449</Y>
+                            </item>
+                          </items>
+                        </chunk>
+                        <chunk name="PersistentData">
+                          <items count="1">
+                            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                          </items>
+                          <chunks count="1">
+                            <chunk name="Branch" index="0">
+                              <items count="2">
+                                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                              </items>
+                              <chunks count="1">
+                                <chunk name="Item" index="0">
+                                  <items count="1">
+                                    <item name="number" type_name="gh_double" type_code="6">0</item>
+                                  </items>
+                                </chunk>
+                              </chunks>
+                            </chunk>
+                          </chunks>
+                        </chunk>
+                      </chunks>
+                    </chunk>
+                    <chunk name="param_input" index="1">
+                      <items count="7">
+                        <item name="Description" type_name="gh_string" type_code="10">{y} coordinate</item>
+                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">9f316f47-f2e1-4ac4-861a-52aacad34414</item>
+                        <item name="Name" type_name="gh_string" type_code="10">Y coordinate</item>
+                        <item name="NickName" type_name="gh_string" type_code="10">Y</item>
+                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                        <item name="Source" index="0" type_name="gh_guid" type_code="9">ed498283-3234-451d-8a35-ee6b33693974</item>
+                        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+                      </items>
+                      <chunks count="2">
+                        <chunk name="Attributes">
+                          <items count="2">
+                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                              <X>48</X>
+                              <Y>459</Y>
+                              <W>14</W>
+                              <H>20</H>
+                            </item>
+                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                              <X>56.5</X>
+                              <Y>469</Y>
+                            </item>
+                          </items>
+                        </chunk>
+                        <chunk name="PersistentData">
+                          <items count="1">
+                            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                          </items>
+                          <chunks count="1">
+                            <chunk name="Branch" index="0">
+                              <items count="2">
+                                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                              </items>
+                              <chunks count="1">
+                                <chunk name="Item" index="0">
+                                  <items count="1">
+                                    <item name="number" type_name="gh_double" type_code="6">0</item>
+                                  </items>
+                                </chunk>
+                              </chunks>
+                            </chunk>
+                          </chunks>
+                        </chunk>
+                      </chunks>
+                    </chunk>
+                    <chunk name="param_input" index="2">
+                      <items count="7">
+                        <item name="Description" type_name="gh_string" type_code="10">{z} coordinate</item>
+                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">f5bebb14-88b9-46e4-928c-d2f86845efef</item>
+                        <item name="Name" type_name="gh_string" type_code="10">Z coordinate</item>
+                        <item name="NickName" type_name="gh_string" type_code="10">Z</item>
+                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                        <item name="Source" index="0" type_name="gh_guid" type_code="9">84d06297-a113-441c-b4f4-685796112d5a</item>
+                        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+                      </items>
+                      <chunks count="2">
+                        <chunk name="Attributes">
+                          <items count="2">
+                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                              <X>48</X>
+                              <Y>479</Y>
+                              <W>14</W>
+                              <H>20</H>
+                            </item>
+                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                              <X>56.5</X>
+                              <Y>489</Y>
+                            </item>
+                          </items>
+                        </chunk>
+                        <chunk name="PersistentData">
+                          <items count="1">
+                            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                          </items>
+                          <chunks count="1">
+                            <chunk name="Branch" index="0">
+                              <items count="2">
+                                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                              </items>
+                              <chunks count="1">
+                                <chunk name="Item" index="0">
+                                  <items count="1">
+                                    <item name="number" type_name="gh_double" type_code="6">0</item>
+                                  </items>
+                                </chunk>
+                              </chunks>
+                            </chunk>
+                          </chunks>
+                        </chunk>
+                      </chunks>
+                    </chunk>
+                    <chunk name="param_output" index="0">
+                      <items count="6">
+                        <item name="Description" type_name="gh_string" type_code="10">Point coordinate</item>
+                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">53544c42-ea9c-4e9d-ac0e-99b053cc7c95</item>
+                        <item name="Name" type_name="gh_string" type_code="10">Point</item>
+                        <item name="NickName" type_name="gh_string" type_code="10">Pt</item>
+                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                      </items>
+                      <chunks count="1">
+                        <chunk name="Attributes">
+                          <items count="2">
+                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                              <X>92</X>
+                              <Y>439</Y>
+                              <W>21</W>
+                              <H>60</H>
+                            </item>
+                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                              <X>102.5</X>
+                              <Y>469</Y>
+                            </item>
+                          </items>
+                        </chunk>
+                      </chunks>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="32">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">b6236720-8d88-4289-93c3-ac4c99f9b97b</item>
+                <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="7">
+                    <item name="Access" type_name="gh_int32" type_code="3">2</item>
+                    <item name="Description" type_name="gh_string" type_code="10">A wire relay object</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">ed498283-3234-451d-8a35-ee6b33693974</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">0</item>
+                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>-22</X>
+                          <Y>461</Y>
+                          <W>40</W>
+                          <H>16</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>-2</X>
+                          <Y>469</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="33">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">b6236720-8d88-4289-93c3-ac4c99f9b97b</item>
+                <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="7">
+                    <item name="Access" type_name="gh_int32" type_code="3">2</item>
+                    <item name="Description" type_name="gh_string" type_code="10">A wire relay object</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">84d06297-a113-441c-b4f4-685796112d5a</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">0</item>
+                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>-22</X>
+                          <Y>481</Y>
+                          <W>40</W>
+                          <H>16</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>-2</X>
+                          <Y>489</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="34">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">b6236720-8d88-4289-93c3-ac4c99f9b97b</item>
+                <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="8">
+                    <item name="Access" type_name="gh_int32" type_code="3">2</item>
+                    <item name="Description" type_name="gh_string" type_code="10">A wire relay object</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">53d6c242-4019-43e3-b315-117c88e17b2f</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">0</item>
+                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>-22</X>
+                          <Y>441</Y>
+                          <W>40</W>
+                          <H>16</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>-2</X>
+                          <Y>449</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="35">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
+                <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="6">
+                    <item name="Description" type_name="gh_string" type_code="10">Numeric slider for single values</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">c2be0930-9ba9-41e9-a914-8e708c16a8bf</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">radius_sphere</item>
+                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                  </items>
+                  <chunks count="2">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>-90</X>
+                          <Y>513</Y>
+                          <W>206</W>
+                          <H>20</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>-89.852104</X>
+                          <Y>513.57227</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                    <chunk name="Slider">
+                      <items count="7">
+                        <item name="Digits" type_name="gh_int32" type_code="3">3</item>
+                        <item name="GripDisplay" type_name="gh_int32" type_code="3">1</item>
+                        <item name="Interval" type_name="gh_int32" type_code="3">0</item>
+                        <item name="Max" type_name="gh_double" type_code="6">5</item>
+                        <item name="Min" type_name="gh_double" type_code="6">0</item>
+                        <item name="SnapCount" type_name="gh_int32" type_code="3">0</item>
+                        <item name="Value" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
           </chunks>
         </chunk>
       </chunks>
@@ -2527,7 +2921,7 @@ https://developer.rhino3d.com/guides/scripting/scripting-component/#script-input
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="13576">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</bitmap>
+          <bitmap length="6835">iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAIAAADrOV6nAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABpISURBVHhe7V1pUFtXms2f+TM1NX+mpqdn76qeqnRlpjrpSld3T3qmK52knc0rhthshmBjs4NtbDA7CMQOAmEJiUXs+2JAYIOD2fddgIwQEtoXJFaxe2GO9AjBGCeOzTiW0alT1/fdd997V/fc77vffQt+y4Q3AVsmGC2+k1D6EhCJRLOzGharKCAgkUbLLi0tKSsr6+joGB8f5+zCyMjIdm4XeDwem82m0+l9fX0TExOrq6vr6+s6nW5paWljY/3Ro4cPHz4g2goQm7uJkgcPHqhUKrSBaIlQOB0fnxoTQ4uOvgnGxzHiyDTzWsfPJ+y/5Dh8OmZn0e6EpmhmNLhcdXV1f39/c3OzhYVFUFDQe++9V1lZqdVqJRIJ8dNec6BPDkzChYX55ub23NyygoKSzs6OHgO6nkR3d/d27kl0dnZCsMePH29ubq78eKytrc3MzKANAoEA6fLyslarQYkGKuFffVatVWlmlVotqNAsaBY2NjYwVqA9rn7v3r2mpiYrK6tPDaipqdFoNIdOQrFYjHRej9n5+Tmi254TarUaox69BktC/gWAY9EAPp+PfkcGjYAR78Gybnl5aVmfIrukWzBgcXERDZiensZRcrkcqUwmUyqV+C2HTkIAvx8W8OqB68L4oB/aAAF+bDMgFY4CICEB4rcYfpMR4CAlfPVAvyMVYuqbniZKDiFeSkJizCoUCmLkGiCRKZRSuVqmVBMTkUo9I5WrJHKVTKE2dPiBAfoR9gdLIrQ8nHhxCTFhYOyjB6empqCcQq2RKNUKzayAO8rrbRrraGysqrh7q6Kzvmair/V+TzO3t10/u3zX17MSydzzEwMGVyGO3DE+gHCDRPkODpWiLyghwofS0tLg4OCYmJiEhISAoKDRpvrZ4S5eR3tTup+i6HQ7zcrD87K717X4gIuP7p57fO+crNxzclIokyvQw4aYo0ilYqpUjJmZdK02E1Sr07C5H5lSaaZINC6V4li9PDC77zE+iKqf4p4baAoOIUCcgZhNifzrjxeXsKio6MqVK2FhoaGhId7Xr4801MwPtE60tnyT6LDC+Pv2kF/9/n8++s3v/+R+9o9b+f++lf2PyvS/TAnlBgkVWLnNztrLZJZ8vvv4+IWuLouenjMTE5cEAtepKdBlh3y+q1B4fn7+uEjUIZPpA32I9yzjI4DeR5CJaNMQHv8wZmdniQOJQBSnRQlmB2NR8QUlRBzf1taalHSTwWClpWWnpNAE09NylVo0szxWHLhK/1lL4K9OmFta2jm6ffWBNOEXK4x/k9L/zOFMKCChTAXzUc863L2b2t4ujo9nUiipZHIig1HU1TXZ1MRpahppbuYQbGmZqK2tF4st5PIukUgB/WAi3+8n0fUQBotFrA5/EFgdYjrAXIDpvKysjMVipaam3r17Fz9wxyhfc7yghFiGu7u7WVpeiIykJyfn/O4P/1tPi13pqB27VVYdcmop6R/YHv/sGxAaGBbj8MWvB/x/Lo/5p/Go96ppVF1z1UxD+UJjcXfhl1Gx8TdvFtnZOQYGBjg7Ozs5eYWHJwUHx2VmlufkVGdnV4G5uWwKJb+4+LRM1oJBgkt/v34AJJybm4M8+rXgkyAWiGj8DmCsra2tPB5vfHw8ICAgOjraw8ODRqO9+Ut7DNKurq6oqDhYIZXKSE6mihQqmXZOvPiQW+j36Obftvn84s9Hjh45an7hy/e20v9li/FzCeW/uRNCBLAykVg2xZ2esM3IjMjKunPu3AUPD3d7ezsPD5/MzArYIotVscOsrOqbNzN6e83k8k440u3LPwNQF4CZQkJIhWU7zBF5OEZAuwtECfbiqOzs7OHh4ZaWlqtXr0JFGxsbKpWKOm+4hBi8mAJdXb1jYmh0ev7xkxYteWlLvY3cu/V3w0+rw/6G7f6v//mb37397h/sP//1Fu3nWyl/p0r+gC+QGOZCpUgsWl65WFYWxmI1WFnZk0hhjo7nnZ2vFBbWwwQzMuDQCAkrMzKq4Nm0Wku1ul+hmIO7I3TaAdEedDeUg0vENDk5OYlZjTAyCAnj09+BW11d39hY3dhYAzc31w238bAXjnR0dJTL5WLyu3z5cmBgoJWVFYVCefMlxBBOS2N6el6nUjOTkzMuODoP3KvXTozwOdzWWCtd0Fstl/767V/+4pe//A/7P/7sQeRfbYa/JYl4Z9IgoUymnJmRdXfbxMaGJCUVWFhYBwcHenl52dldioigxsUxo6Pp/v6RYEBAVHR0anx8WkXF8YGByqGhccgDFaGWYUEhxNS4A2xCQnhRpLA8hJkoQQoi6kQF7tjY1OQkQT6PB2kfPHjw+PHjiYkJqIgfBWfu4uJy8uRJxNj4gW+OhEqlAoN6DzBm0U1Y08MA0Gf6+5zaWZlKrZpbFI/1T9amcmvTGgqYdXnMznIm707a/VrGZEuFVIbjFPCldXVVxcXHyOSQqKjMo0fNL1265OTkbGV1ITw8JTAwzt8/xscnws8vGmlEBC0mJi0//9i9e9nV1bcrKyurqqowb0FIqIVeJjp62yQNQIlKpczPL4+NvUmlZiCNiaGmsEqaA0LW3N3XvC6veV6edXYtYTC5k5P379+vrq7GOW/fvn3x4kX4UjMzM6yU3hwJ4ahGRjjDw/pnREgJIg+Ojo5xOKM9PT1jY2OEL0JQwOGMjE9MjgtkXIFUIJIIRZJJoWSMr+coTwih0e9lZRUdHW0bGy6ZmVeiovJOn7b+7W9/++6771644E6hZEVG0qKi6DExjJgYZmwsMyoqjUwOn5k5o9UOYi7E6MG1EDqi6zEatlv5JND1arUqMZFx9WrYlSshXl5BV6+GXCMl15w9t/LxJyuffr5y5DPNnz8uSUkZ5fEwoyMKbWhouHfvHqyQRCJ9+OGHkZGRb4iEGNFY4+bllcXF0UNCoqOikmm0bDo9JywsjkSKDw9PiI9PLSm5JRBMwXc1Njbm5eV1dHQUFxczGAxEB/Bj8HsEkMcuJpOJ8T48zIEZa7UXpNLjY2PmXK75yMjJ4eETw8Nmo6OnsQmOj28TFaamTs/Pn+LzW8RiFVoFi4cV1tbWIqQi2rkHxKLi/v2JwUGEKaMjI6O4Yv/gMKejU9DRIejonOro4Hd0LC8uPnj4EL8alaAfUnt7+48//vidd94JCwt7Q+ZCSIgxnZKSce1auLd36I0bZF/fiGvXwjCoiYyPDzkpKdXwsK+zvLw8PT0dfQGRkMe4bm9vR7xOABXgr27dugXTUamw5BKLRI0KRZ1afUetrpfLa2WyWqXyjkq1l6igUNzm86unp3ky2fbdGUxsbDYbFkm0cw8ICQ1Pg797OPzo4YPNx4/Xd7j1eGV1FYuMtbU1lUoFx4JhAYskPCrkRDsx426f8fXG90kIYMqBz+zu7unr6+/t7e/p6QOJPLHZ1dU9ODg4MDDA4XDgUYeGhogH8egFlO+AqAC7MQwLAhqZbE4kmhEIFNPTsKdZqVT7JGdlslmRSI0KEgkqb98jhXK4CoYIzJE40R6g639U70MtNAxCwvL0jxAXFrAoJCba7RqvN35AQgBdZngo+0ygwnNi+4zb9r19n3pnczdQgh4k4sztom+B/oUXhd08ay4EcOxLYvtExoAflvDAAXkwxiEP0qfFA1CIyRUVYEx7KsBWYM3wyRg620WHHq9UQkKP7zc+yLZjfHsqYBOWh3AU8dH3mOBhw6uTcEeep20LIEqgHCrAjz1dAYALra+vb2tre9YseDjxiiSEJMTdLyJPFO4AJd/vWgHI1tvbCxdq0m8PXpGEEA8S7isebO5ZnnMHmAK5XG5JSQkqIEjeLn02MBSeH7vDV5wfQJNQvl302uNVSAh5DM4Ty4a9FApVAoFSLNYvMPbs2qFCsSAUKoqKqvl8uVK5KJGgELHMM4NG9D6CHeIxxQ8CS4i5uTmMHCiH+RWCQr/Zw/DI9/lh0A/djXGNJXyVQoHVPdIqqfSWSFQqkZQjr1QiwmSDyBB7d6hUomZ1RQWZy83Sam/jcMOBncRLGPsCXQ8NVrFyfw5sbm7yeJMdHb3Dw+O5uQXp6el0Or2mhg27N5alxf+jhBjXcJ4G/6kUiYRarYNKdVooPCcS2U5N2fB41tPTtiIRNs8JhTYczqnRUTOhUF+C8h3KZHZ1dcc6OsyVSgdsosLc3JcKRbRYDKvdH5AQi3TiWdIebOtmePb77aMoXVVVbWZmeXp6iZOTe0JCnKenZ0RENGZck4R6CYn4Uy6Hq5yenXVoa2O0tXG7ukbAzs4hpN3dnIGB++np+lc3kpKSMzPzsdndPdLRMdjePkCwtXWgu3vIkB9sbBwdHfWYnY0Si+FO98fTEhKaEa4VBoq9BLCpUMgTE6kpKblRUTRbW4eQkGAbG5uQkIg3/6n9cwK9YAhVEDLwh4bs6PTEoqImKjWHQmGxWJXJyTmJiZk0WoGLy9XAwCAfHx8XF28mswSF2dlVBQW38/PrwIICfUowO/ub7GwniYRsmCb3ByHhhh7rwOoqtFyCfvrX8FeXlteWV9dX1zbXVvTlukePHra2dtLpBfn5tTY2X5NIYZAwMDDMJOETQCgjkfDb2mwSE2Pz8+vj49NCQ+NjYuhkMjUiIjk6mn7xooeXl+fly16Oju7x8czw8KSMjLKcnKrs7Ft7mJlZR6dfnJ6GhM90pLB7Q4Qi4/OnDI9J+FNT+oF0f/y+YFIwNTk1xZuavD+JQOah4UlFZ2cvlZqbk1Ntbm7p6elx6tQpf/9gk4R7oODzeXNz54uKIpjMGkIMiIQUOhUX1zs6uqHvzp93cHLyKiqqRyHx+sXTTEm51d5+YX4+9mlHCs0AZBBAyeWysrKaqCgqhcKMiaGSyYlJaRl3whvXXNbWPPXUOetKE0pHJkYmJ3mZmTn+/lFhYYknT1r4+Fw3MzO7ds3PJOF3QLdiyT49PbWw4FhQQGIwqtPTy9LSSiASwbw8tr29k6uri4OD/fnzrvCWhFrp6aVIDVoSNSuwSaGUt7efX1iIlUj0dkYAV0F3w39CPJjb1NSURjPDYOR6e5O8vUMvX9Y/8r1OIhc6lK98tLLyqZ6LHy6WRZQNTQwNDPTHxyeFhCRERFBhhdHRUR999NHVq74azeH7vvBZQBdPT4tFIt7AgF1sbFhYWAo6C740ICDKzy8yMDA6MvLm2bP2Li7OTk6XrKwcSKTksDAK9qIaLCMwMCYkJD4oKPbGjQgSKYlCKWIwEJpGTE+rIdiOZoYZV7/6xBWRzs/PwYsODGw/8gUHhoaHu0YEnQJwqnOK38Zf1C4+fKR3pI2NLf7+cXFxGUeOHD1y5C9vv/0rFxcvWCHR/tcf/+8SAlg0wxT7+uzI5FASiQavFRQU5+0dgoyvbzg0++or24AAfxiihYVtaGgCygMCokF39xuoAP2QRwZpfHx+SoqDUAgJ9R+EQi3CVnbMESDCGcxzT34P/PDB4wfrj9e3uYWQZnVZt7y+viaTyZub29rbu+/ebSwuLqmoqOzs7FYqEUW/EY98DwgKsVi4uOhIo90ICyuMjMyKiGBFR+dEReVER+cmJpacPOnwySdH33//g1OnLiQllaEcRJ3IyGxUIDaRweaNG9nffHNuaSkOIcuOZnuArgcIUX8QqA+1DK+a6tcYxKuL2MQZTI50N/QfUczP24+OnmxutmxrI3iWYEeHVVOTWWbmH4KD/wsZbH6764lqRAkOl0o/VauxLnxmRAqg918S2ycyBrwaCfWPmcTiPI2GMTvLfJo6XUZj4w2BIFWny9Rq969DcG6OqVLRp6dvS6X6V6FMAF6NhHpIJPt8UAhjmplZratra23tn5lZxuaeCvtxXiqdwfm2z3vo8eok3Bdqtbqvr6+mpsb0FPCF8VNKiGgC0WNpaSmc7PM8BTRhX/yUEsLy7ty509PTY3qX6WVwUBIqfizlchWfL6iqqlGpsIjeu/fleLhwMBKKRFMiEf9HUS4Xt7Tca2lpVCgke3aJxS9Iw+GC7TYdGry8hPovjBQKn7m581rtpeenTufa1mYxMWG3sOC8Uzg766TRfK1Q2CiVtns4M/O1Wm0PIqNQ7N0L4qi5OaTBmFgxz2637hDgYCTUal3X1sxXViyfn5ub1mNjxwcGvtjaOre6akUULi2d7u+PGxysGRwsJzg0pE9HRqrY7KTc3GCwvp7G4VTtVNhhfz+bw7mBlohEJgl/HPQSajQeKytndTrbH8WVlXNNTZ/39BxTqy2Xl89tbNitrHxVWcmqqRmtre1js3uJtK5u4O5djo9PRGxsUkAAKTSUUl8/XFPTvYe3bnHu3InVaNxMEv5YvJSEq6vnRkdPtbR8AS27ur4oKTmSmEiLiLhJJlMTEzN8fUl+fhF+fuSoKNrFi+6+vtddXV28vG5UVDQVFNTl5lbvZmZmA5sdtLDgbvirCtsvEr4kjOJO208pIUEY3/o6ZkQbrdZydPQEk0nNyKhOSckBqdRsJrOITs9jsSpcXS+TSGEuLs5ubt4JCenh4RQWqzwvr2ZHwvz8hsTEkOFhZ8O7+voVJxYtmueDVqvFwgZrU6TEyzVzc3M4fNoY/rTbgUm4unp2ZcV2efk77tn8QcIoV1bOFBUlZWXVQxswP5+dm6vPlJQ0ODq6BQcHubu7QkI6vSApKTMrqzInp2qH2dl3mMwgPt/V8Bmb3gpXng+rq6sLCwsTExP4MSMjI6WlpcXFxWw2m3iO8frjYCTUaj1XVk4vLp5ZXDyLdGGB4Fdzcxazs+ZItVpzrfb0s6jRmCGWgVPV6c4UFFAyMthZWbdgWDvyFBXVOzg4e3i4X7p00d39enFxQ05ONST89g9j6Mlk1tbUBC4seOw4UsPba/uDeBWRwPr6ulAoHB0dValU9fX1Xl5edDrdzc2Nx+MZxT2jg5LQqasruLo6p7Y2/c4dVn19VkNDDpud3t5eOD5+u7+/ksu9c/9+w/379SCXq093k8ttHhwMWlw0n542S02Nz8xk0+n5MTF0OEwKJQMGx2AU2dtf8va+amtrDSvMy2MTL2fsZmpqTUWF/+ysBxHO7CshoRkyxEvc8JkADLGioqK5ubmxsTE7O9vKyiooKOjMmTN8Pt8ovp86AAnFYkh4MSMjys2N5ukZ7+4ee+VKkpdXYkhI1q1bbbCYlhYOhyMdG1OMjcl3pd9tCgQ6BoNeU/PHoqK/kMlJ2dk1sbEMb+9gHx/S9euhiGhCQxNsbS8glrGzO+fkdBkmmJZWsoc0WlVZmd8eCQk/SaQASubn9X+bDRISrwIjXVtbgxX29PQolcry8nJ7e/vw8HBIaCyfwB2MFc7NudbWXsRUxGIFsFj+hjSAwbhWXR3Z1kZvb09F2tpKI7g7T7CpKa2312t93VKn+yo9PZpGK2cyi9PTS3cIzSChn5+vvb2do6NHVlYV7DI1tRDpDlNSKkpLfefmnpAQpgZjA7VajUqlVCjkMplWoVhQKhfk8nmtVgcvCgkRv/T398ORlpWVnThxwtPT8/Tp03Ckh0hCjcbz0SOzzc1jm5vHCT54cGJj49jKypc63ef78bPl5c+Xl78wZJCaYXWPuXBp6StYM5VaSqPl72ZGRrm1tYO/v5+NjfX5826QEPqlpuqVQwq9waSkspKSa4uLniKRAhGNUqkQCqcLCysKC8srKtgFBWX5+WUVFXUcTopczpDLU2Uy+shIKpfLg1FiImxoaGhqamKxWGZmZsHBwceOHUOAc7isUCy+MDQUNzoaA3I40d3dwRMT8Xw+5VnEXi43Tiik8XixCwu2jx7ZPXxov7FhmZ4ekZRUkpKSCyLyNEhVyGJVmptbOzs72draWFk5+PrqXWtISLyHxw0vr4ArVwKRJiTkkMl+/f1OaI9AoP/Urb9/0N8/xt09wMMjwNXV1909KCyMqlCYbW2d2No6ubV1fHz8OJ3O6uvrz8AYKYfSFTQa7euvv75y5cpnn312uCRcWrp0965veHgliZQZEZEVGoo+qZ2YUPJ4agNVuzKqiQmVQDD7zTf9FRX36uo62ez+9HS7vr4jw8PH2OzPSKSolJRCKhXrwlyIdOMGOSBA/8abmZmlm5urg4O9tfV5CoUVHp5EEKt+MjmFTKYmJORTqdempjCY4EX1f8cCaVFRRVlZjYHs8vJaGOLAQDKfnwLyeJTx8azFxeVHjx5hFoQVwnMyGIxPPvnk6NGjH3zwAZfL3f0nHl5bHIyEy8suDQ2OAQFxoaERYWFkEik6Nja2ufl2S0t9c/Od/Vjf2Fjb0FBdXV1WXl7Y2mojk52WSMy7u49FRsIK8yFSUlJWRERycDDOmRATwzh58gwWFdbWltbWF9LSSqGxgbnJyUQmJyamoKjo6uKi185ciGluz/9Lgs3V1S2dbpvIr63pwxwENX19fb29vS0tLYmJifHx8QhNBQKBUSwND0ZCrdYDq0Cx2EoqtZZIrECx2BKpVLo/sUsms5bJbORyW4XCen3ddm3NznCb5iyFEk4iFZHJ8Io50dFYWhQgpVAqPv3U6ujRM++//yczs0uJiWVEhd0MCSnOyLg6P4+5EDGLvlWwoecEAhlENDMzM1hjGEJX/beJKD9Ed2e02ksbGyc3Ny12c2PD/Hm4vm6+smIBrq5arK2dbmiwKyx0LS113s3ycjcGw8Lf/7dBQb/PyLDE5p4KYH6+a2enxcKCO2GFaBkaZnhz7kVAHEv8wtccLy+h/gVDqTRWrfZTqQJfmkHz8/4LC77z83voo9MFrq2FgktLAU/t1dNwlI9USsFcSEh4SPDyEuohFqtEIrVIhPSnpVosNoIA5GBxMBIaRv3rw8OFg5LQhJ8MJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR4mCY0eJgmNHiYJjR5PSGiCkWJbQhOMGG+99X8fYGEl7kWcpwAAAABJRU5ErkJggg==</bitmap>
         </item>
       </items>
     </chunk>

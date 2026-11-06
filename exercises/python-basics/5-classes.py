@@ -6,7 +6,18 @@
 # TODO: Create a class called Rectangle with attributes length and width.
 
 class Rectangle():
-    ...
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+rectangle_1 = Rectangle(5, 3)
+rectangle_2 = Rectangle(10, 2)
+
+print(rectangle_1.area())
+print(rectangle_2.area())
 
 # TODO: Add a class function to calculate the area of the rectangle.
 
