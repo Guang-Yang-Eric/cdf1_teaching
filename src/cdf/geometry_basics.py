@@ -16,6 +16,7 @@ Adding a new function with Copilot
 
 import math
 import Rhino.Geometry as rg
+import random
 
 def create_cube(base_point=None, length=1.0, width=1.0, height=1.0):
     """
@@ -185,6 +186,28 @@ def copy_brep_along_z(brep, distance, copy_count):
         copies.append(copy)
     return copies
 
+def copy_brep_along_x(brep, distance, copy_count):
+    """
+    Create copies of a Brep, each offset in the +X direction.
+
+    brep : Rhino.Geometry.Brep -- the Brep to copy
+    distance : float -- the X spacing between consecutive copies
+    copy_count : int -- the number of copies to create
+
+    Returns a list of Rhino.Geometry.Brep copies; copy i is moved by distance * (i + 1).
+    """
+    if brep is None:
+        raise ValueError("brep must be provided.")
+    if copy_count < 0:
+        raise ValueError("copy_count must not be negative.")
+
+    copies = []
+    for i in range(1, int(copy_count) + 1):
+        copy = brep.DuplicateBrep()
+        copy.Transform(rg.Transform.Translation(rg.Vector3d(distance * i, 0, 0)))
+        copies.append(copy)
+    return copies
+
 def rotate_brep(brep, angle_degrees, axis_point=None, axis_direction=None):
     """
     Rotate a Brep around a specified axis.
@@ -208,3 +231,150 @@ def rotate_brep(brep, angle_degrees, axis_point=None, axis_direction=None):
     rotated_brep = brep.DuplicateBrep()
     rotated_brep.Transform(rotation_transform)
     return rotated_brep
+
+def _path_points(width, max_length, steps, angle_step, max_turn, seed):
+    values = (width, max_length, steps, angle_step, max_turn, seed)
+    if any(v is None for v in values):
+        raise ValueError("Connect all six inputs to sliders.")
+    if not all(math.isfinite(float(v)) for v in values):
+        raise ValueError("Inputs must be finite numbers.")
+    if width <= 0 or max_length <= 0:
+        raise ValueError("width and max_length must be positive.")
+    if int(steps) != steps or not 1 <= steps <= 200:
+        raise ValueError("steps must be an integer from 1 to 200.")
+    if angle_step <= 0 or not 0 <= max_turn <= 180:
+        raise ValueError("Need angle_step > 0 and 0 <= max_turn <= 180.")
+    if int(seed) != seed:
+        raise ValueError("seed must be an integer.")
+
+    # Separate random streams keep lengths unchanged when angles change.
+    lengths_rng = random.Random(int(seed))
+    turns_rng = random.Random(int(seed) + 100003)
+    turn_count = int(math.floor(max_turn / angle_step + 1e-10))
+    points = [(0.0, 0.0)]
+    heading = 0.0
+    for i in range(int(steps)):
+        if i > 0:
+            turn = turns_rng.randint(-turn_count, turn_count) * angle_step
+            heading += math.radians(turn)
+        length = lengths_rng.uniform(0.5 * max_length, max_length)
+        x, y = points[-1]
+        points.append((x + length * math.cos(heading),
+                       y + length * math.sin(heading)))
+    return points
+
+
+def create_random_path(width=4.0, max_length=15.0, steps=10,
+                       angle_step=90.0, max_turn=90.0, seed=1):
+    """Return road_parts (Brep list), centerline, info.
+
+    Starts at world origin, first segment points along +X.
+    max_length is the maximum length PER SEGMENT, not a site boundary.
+    Pieces overlap at circular joints; they are not Boolean-unioned.
+    Crossings and revisits are allowed. All parts use a fixed height of 0.2.
+    """
+
+    coords = _path_points(width, max_length, steps, angle_step, max_turn, seed)
+    points = [rg.Point3d(x, y, 0) for x, y in coords]
+    road_parts = []
+    half = width / 2.0
+    thickness = 0.2
+    total_length = 0.0
+
+    # Each rectangle starts exactly where the preceding one ends.
+    for i in range(len(points) - 1):
+        start, end = points[i], points[i + 1]
+        direction = end - start
+        length = direction.Length
+        direction.Unitize()
+        side = rg.Vector3d(-direction.Y, direction.X, 0)
+        plane = rg.Plane(start, direction, side)
+        box = rg.Box(plane, rg.Interval(0, length),
+                     rg.Interval(-half, half), rg.Interval(0, thickness))
+        brep = box.ToBrep()
+        if brep is None or not brep.IsValid:
+            raise ValueError("Failed to create a road rectangle.")
+        road_parts.append(brep)
+        total_length += length
+
+    # Round joints overlap adjacent rectangles and fill turning gaps.
+    for point in points:
+        circle = rg.Circle(rg.Plane(point, rg.Vector3d.ZAxis), half)
+        joint = rg.Cylinder(circle, thickness).ToBrep(True, True)
+        if joint is None or not joint.IsValid:
+            raise ValueError("Failed to create a round joint.")
+        road_parts.append(joint)
+
+    centerline = rg.PolylineCurve(points)
+    info = "Segments: {} | Parts: {} | Total centerline length: {:.2f}".format(
+        int(steps), len(road_parts), total_length)
+    return road_parts, centerline, info
+
+def create_brep_cloud(
+    brep_a, brep_b, brep_c,
+    length, width, count,
+    spacing_x, spacing_y,
+    seed=1
+):
+    rng = random.Random(int(seed))
+
+    models = [brep_a, brep_b, brep_c]
+    points = []
+    copies_a = []
+    copies_b = []
+    copies_c = []
+
+    anchors = []
+
+    for model in models:
+        box = model.GetBoundingBox(True)
+
+        anchor = rg.Point3d(
+            (box.Min.X + box.Max.X) / 2,
+            (box.Min.Y + box.Max.Y) / 2,
+            box.Min.Z
+        )
+
+        anchors.append(anchor)
+
+    for attempt in range(int(count) * 300):
+
+        if len(points) >= int(count):
+            break
+
+        point = rg.Point3d(
+            rng.uniform(0, length),
+            rng.uniform(0, width),
+            0
+        )
+
+        too_close = False
+
+        for old_point in points:
+            if (
+                abs(point.X - old_point.X) < spacing_x
+                and abs(point.Y - old_point.Y) < spacing_y
+            ):
+                too_close = True
+                break
+
+        if too_close:
+            continue
+
+        index = rng.randrange(3)
+
+        copy = models[index].DuplicateBrep()
+        move = rg.Transform.Translation(
+            point - anchors[index]
+        )
+        copy.Transform(move)
+
+        points.append(point)
+        if index == 0:
+            copies_a.append(copy)
+        elif index == 1:
+            copies_b.append(copy)
+        else:
+            copies_c.append(copy)
+
+    return copies_a, copies_b, copies_c, points
